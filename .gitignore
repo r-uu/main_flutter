@@ -1,0 +1,40 @@
+# Flutter / Dart build outputs
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+**/.pub-cache/
+**/.pub/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/app/google-services.json
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Pods/
+**/macos/.symlinks/
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+
+# IntelliJ / Android Studio
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# VS Code
+**/.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ZIP archives (large binary blobs)
+*.zip
